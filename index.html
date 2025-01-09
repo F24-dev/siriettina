@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -307,5 +307,55 @@ footer p {
         <p>Da Ciccio per Siriettina</p>
     </footer>
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsante di Riavvio Anni '80</title>
+    <!-- Inclusione di Google Fonts per uno stile vintage anni '80 -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1b1b32, #4e4e7b);
+            font-family: 'Press Start 2P', cursive;
+            color: #fff;
+            text-align: center;
+        }
+        button {
+            font-size: 1.5em;
+            padding: 20px 60px;
+            color: #fff;
+            background: linear-gradient(145deg, #ff007c, #f5f542);
+            border: 4px solid #ff007c;
+            border-radius: 12px;
+            box-shadow: inset -5px -5px 0 #ff007c, inset 5px 5px 0 #f5f542, 8px 8px 0 #000;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        button:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: inset -2px -2px 0 #ff007c, inset 2px 2px 0 #f5f542, 12px 12px 0 #000;
+        }
+        button:active {
+            transform: translate(4px, 4px);
+            box-shadow: inset 2px 2px 0 #ff007c, inset -2px -2px 0 #f5f542, 4px 4px 0 #000;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formspree.io/f/{your_form_id}" method="POST">
+        <input type="hidden" name="message" value="Il pulsante anni '80 è stato premuto!">
+        <button type="submit">RIAVVIA</button>
+    </form>
+</body>
 </html>
-a
+
